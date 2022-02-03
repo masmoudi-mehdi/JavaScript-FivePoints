@@ -30,36 +30,82 @@
 // alert(`ma variable hobbies est de type : ${typeof(hobbies)}`);
 
 
+// var name = 'Musk';
+// var surname = 'Elon';
+
+// var fullName = surname + name;
+
+// // alert(fullName);
+
+// fullName = surname + ' ' + name;
+
+// // alert(fullName)
+
+// // alert(surname + ' ' + name);
+
+// alert('fullName[1] = ' + fullName[1]);
+
+// var complexity = `
+// c'est 
+// vraiment 
+// facile
+// `
+// alert(complexity)
+// var complexity = "c'est vraiment facile"
+
+// complexity = 'c\'est vraiment facile'
+
+
+
 var x = 5
 var y = 7
+// alert('x = ' + x);
+// alert('y = ' + y);
+// alert(`Opérateur + pour l'Addition : x + y = ${x+y}`);
+// alert(`Opérateur - pour la Soustraction : x - y =  ${x-y}`);
+// alert(`Opérateur * pour la Multiplication : x * y = ${x*y}`);
+// alert(`Opérateur / pour la Division : x / y = ${x/y}`);
+// alert(`Opérateur % pour le Reste de la division : x % y = ${x%y}`);
 
-alert(`Opérateur + pour l'Addition : x + y = ${x+y}`);
-alert(`Opérateur - pour la Soustraction : x - y =  ${x-y}`);
-alert(`Opérateur * pour la Multiplication : x * y = ${x*y}`);
-alert(`Opérateur / pour la Division : x / y = ${x/y}`);
-alert(`Opérateur % pour le Reste de la division : x % y = ${x%y}`);
+// alert(`Rappel de la valeur de x = ${x}`);
+// alert(`Opérateur ++ pour l'Incrémentation : x++ ${x++}`);
 
+var x = 5
+alert(`Rappel de la valeur de x = ${x}`);
 var z = x++;
-var w = ++x;
-alert(`Opérateur x++ pour l'Incrémentation' : z = x++
+alert(`Opérateur z = x++ pour l'Incrémentation' : 
 z = ${z} 
 et x = ${x}`);
 
-alert(`Rappel de la valeur de x = ${x}`);
-alert(`Opérateur ++x pour l'Incrémentation : w = x++ 
-w = ${w}
-et x = ${x}`);
-alert(`Rappel de la valeur de x = ${x}`);
+// alert(`Rappel de la valeur de x = ${x}`);
+
+// var w = ++x;
+// alert(`Opérateur ++x pour l'Incrémentation : w = ++x
+// w = ${w}
+// et x = ${x}`);
+// alert(`Rappel de la valeur de x = ${x}`);
+
+
+
+
+alert(`Rappel de la valeur de y = ${y}`);
+alert(`Opérateur -- pour l'Incrémentation : y++ ${y--}`);
+alert(`Rappel de la valeur de y = ${y}`);
 
 var i = y--;
-var j = --y;
 
 alert(`Opérateur y-- pour la Décrémentation : i = y--
 i =  ${i}
 et y = ${y}`);
-alert(`Rappel de la valeur de x = ${y}`);
+alert(`Rappel de la valeur de y = ${y}`);
 
-alert(`Opérateur --y pour la Décrémentation : j ${j}`);
+var j = --y;
+alert(`Opérateur --y pour la Décrémentation : j = --y
+j = ${j}
+et y = ${y}`);
+
+alert(`Rappel de la valeur de y = ${y}`);
+
 
 
 
